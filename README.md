@@ -8,7 +8,7 @@ Temporary solution to https://github.com/parcel-bundler/parcel/issues/1165
 [ci-img]:  https://travis-ci.org/mendrik/postcss-parcel-import.svg
 [ci]:      https://travis-ci.org/mendrik/postcss-parcel-import
 
-```css
+```
 @parcel-import '../mixins.pcss'
 ```
 
