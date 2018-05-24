@@ -1,0 +1,40 @@
+{
+  "name": "postcss-parcel-import",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to fix current @import bug in parcel-bundler",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "import",
+    "parcel",
+    "parcel-bundler"
+  ],
+  "author": "Andreas Prudzilko <mendrik76@gmail.com>",
+  "license": "MIT",
+  "repository": "mendrik/postcss-parcel-import",
+  "bugs": {
+    "url": "https://github.com/mendrik/postcss-parcel-import/issues"
+  },
+  "homepage": "https://github.com/mendrik/postcss-parcel-import",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
